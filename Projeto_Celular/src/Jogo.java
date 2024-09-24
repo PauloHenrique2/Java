@@ -23,7 +23,7 @@ public class Jogo {
     {
         System.out.println
         (
-         "Código: " + this.cod_jogo +
+         "Código: " + this.cod_jogo + "\n" +
          "Nome: " + this.nome + "\n" +
          "Tipo: " + this.tipo + "\n" +
          "Tamanho: " + this.tamanho + "\n"
