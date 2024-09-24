@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CancellationException;
 
@@ -5,7 +6,7 @@ public class Celular {
     private int cod_cel;
     public String marca;
     public String modelo;
-    private List<Jogo> jogos;
+    public List<Jogo> jogos = new ArrayList<>();
     private Tela tela;
     private Processador processador;
     private Memoria memoria;
@@ -34,6 +35,25 @@ public class Celular {
     public void Chamar()
     {
         System.out.print("Celular " + this.cod_cel + " chamando");
+    }
+
+    public void InstalarJogo(Jogo jogo)
+    {
+        this.jogos.add(jogo);
+    }
+
+    public void InstalarJogo(int cod, String nome, String tipo, double tam)
+    {
+        Jogo jogo = new Jogo(cod, nome, tipo, tam);
+        InstalarJogo(jogo);
+    }
+
+    public void ListarJogos()
+    {
+        for(Jogo j : this.jogos)
+        {
+            j.Listar();
+        }
     }
 
     public int getCodCelular()
