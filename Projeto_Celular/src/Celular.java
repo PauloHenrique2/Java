@@ -11,12 +11,11 @@ public class Celular {
     private Processador processador;
     private Memoria memoria;
 
-    public Celular(int cod, String marca, String mod, List<Jogo> jogos, Tela tela, Processador proc, Memoria mem)
+    public Celular(int cod, String marca, String mod, Tela tela, Processador proc, Memoria mem)
     {
       this.cod_cel = cod;
       this.marca = marca;
       this.modelo = mod;
-      this.jogos = jogos;
       this.tela = tela;
       this.processador = proc;
       this.memoria = mem;
