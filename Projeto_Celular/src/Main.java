@@ -11,12 +11,10 @@ public class Main {
      Jogo jg1 = new Jogo(1, "Candy Crush", "Puzzle",500);
      Jogo jg2 = new Jogo(2, "Subway Surfers", "Corrida", 1000);
 
-     List<Jogo> jogos = new ArrayList<>();
-     jogos.add(jg1);
-     jogos.add(jg2);
+     Celular c1 = new Celular(1, "Samsung","Galaxy S20", t1, p1, m1);
 
-     Celular c1 = new Celular(1, "Samsung","Galaxy S20", jogos, t1, p1, m1);
-     c1.Ligar();
-     c1.Chamar();
+     c1.InstalarJogo(jg1);
+     c1.InstalarJogo(jg2);
+     c1.ListarJogos();
     }
 }
