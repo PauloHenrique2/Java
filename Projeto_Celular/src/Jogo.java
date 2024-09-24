@@ -11,14 +11,23 @@ public class Jogo {
         this.tamanho = tam;
     }
 
-    public void Iniciar()
-    {
+    public void Iniciar() {
         System.out.print("Jogo " + this.cod_jogo + " iniciado");
     }
 
-    public void Encerrar()
-    {
+    public void Encerrar() {
         System.out.print("Jogo " + this.cod_jogo + " encerrado");
+    }
+
+    public void Listar()
+    {
+        System.out.println
+        (
+         "Código: " + this.cod_jogo +
+         "Nome: " + this.nome + "\n" +
+         "Tipo: " + this.tipo + "\n" +
+         "Tamanho: " + this.tamanho + "\n"
+        );
     }
 
     public int getCodJogo()
