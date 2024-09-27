@@ -13,6 +13,17 @@ public class Acessorio
         this.valor = val;
         this.tipo = tipo;
     }
+
+    public void Listar()
+    {
+     System.out.println
+     ("Código: " + this.codigo + "\n" +
+      "Descrição: " + this.descricao + "\n" +
+      "Valor: " + this.valor + "\n" +
+      "Tipo: " + this.tipo + "\n"
+     );
+    }
+
     public void Ligar()
     {
         System.out.println("Acessório: " + this.codigo + " está ligado!");
