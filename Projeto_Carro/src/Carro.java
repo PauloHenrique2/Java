@@ -20,6 +20,14 @@ public class Carro
         this.motor = motor;
     }
 
+    public void ListarAcessorios()
+    {
+        for (Acessorio a : this.acessorios)
+        {
+            a.Listar();
+        }
+    }
+
     public void Ligar()
     {
         System.out.println("Motor do carro : " + this.codigo + " está ligado!");
