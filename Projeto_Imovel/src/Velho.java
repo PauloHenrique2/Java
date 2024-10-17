@@ -1,4 +1,14 @@
-package PACKAGE_NAME;
+public class Velho
+{
+    private double desconto;
 
-public class Velho {
+    public double GetDesconto()
+    {
+        return this.desconto;
+    }
+
+    public void ImprimirDesconto()
+    {
+        System.out.println(this.desconto);
+    }
 }

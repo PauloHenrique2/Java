@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public class Imovel
+{
+    private String endereco;
 
-public class Imovel {
+    private double preco;
+
+
 }
