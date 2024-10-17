@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class Assalariado
+{
+ private double salario;
 
-public class Assalariado {
+ public double vencimento()
+ {
+     return 0;
+ }
 }

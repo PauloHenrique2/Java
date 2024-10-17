@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Comissionado
+{
+ private double totalVenda;
 
-public class Comissionado {
+ private double taxaComissao;
+
+ public double vencimento()
+ {
+  return 0;
+ }
 }

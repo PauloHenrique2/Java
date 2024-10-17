@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public class Empregado
+{
+ private String nome;
 
-public class Empregado {
+ private String sobrenome;
+
+ private String cpf;
+
+ public double vencimento()
+ {
+  return 0;
+ }
 }

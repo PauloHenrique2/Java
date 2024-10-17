@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Horista
+{
+    private double precoHora;
 
-public class Horista {
+    private double horasTrabalhadas;
+
+    public double vencimento()
+    {
+        return 0;
+    }
 }
