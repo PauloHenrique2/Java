@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Funcionario extends Pessoa
+{
+ private double salario;
 
-public class Funcionario {
+ public double GetSalario() { return this.salario; }
+
 }
